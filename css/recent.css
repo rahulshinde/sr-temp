@@ -64,14 +64,6 @@ table {
 	/*outline: 1px solid rgb(0,0,255);*/
 }
 
-body { 
-  background: url(../img/aGSD1/5tankacc.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .container,
  {
 	height: 100%;
@@ -119,9 +111,3 @@ a:hover {
 	LAYOUT
 	====================== */
 
-.info {
-	position: fixed;
-	right: 100px;
-	top:25%;
-
-}
