@@ -78,11 +78,35 @@ table {
 	TYPOGRAPHY
 	====================== */
 
-h1 {
+
+.name {
+	text-align: left;
+	padding-left: 20px;
+}
+
+.year {
+	text-align: center;
+}
+
+.about-name {
+	text-align: right;
+	padding-right: 20px;
+	text-decoration: underline;
+}
+
+td {
+	padding-top: 10px;
+}
+
+h1,
+td {
 	font-family: 'Cousine', monospace;
 	font-size: 12px;
-	text-align: center;
+}
+
+h1 {
 	margin-top: 10px;
+	text-align: center;
 }
 
 .name {
@@ -108,11 +132,30 @@ a:hover {
 	LAYOUT
 	====================== */
 
+table {
+	width: 100%;
+	position: fixed;
+	table-layout: fixed;
+	top: 0;
+	height: 30px;
+	background-color: white;
+	border-bottom: 1px solid black;
+}
+
+.header {
+	display: inline-block;
+	position: fixed;
+	top:0;
+	left: 0;
+	right:0;
+	height: 40px;
+}
+
 a {
 	float: left;
-	width: 24%;
-	margin-top: 7%;
-	margin-left: 7%;
+	width: 32%;
+	margin-top: 1%;
+	margin-left: 1%;
 }
 
 a:nth-of-type(3n) {
@@ -127,6 +170,7 @@ img {
 }
 
 .proj-list {
+	margin-top: 30px;
 }
 
 .archive {
@@ -137,4 +181,16 @@ img {
 h1.archive-title {
 	width: 100%;
 	border-bottom: 1px solid black; 
+}
+
+.archive-container {
+	overflow-x:scroll;
+}
+
+.row1 a {
+	height: 65px;
+	width: auto;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
 }
