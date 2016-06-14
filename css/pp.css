@@ -165,6 +165,22 @@ table {
 	margin-left: 10%;
 }
 
+.img-half-f {
+	float: left;
+	width: 40%;
+	margin-top: 1%;
+	margin-left: 10%;
+	margin-right: 0;
+}
+
+.img-half {
+	margin-top: 1%;
+	float: left;
+	margin-left: 0;
+	margin-right: 0;
+	width: 40%;
+}
+
 .img-third-f {
 	float: left;
 	width: 26.66%;
