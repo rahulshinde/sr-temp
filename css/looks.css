@@ -1,5 +1,5 @@
 /* 	================= 
-		MAIN.CSS
+		LOOKS.CSS
 	================= */
 
 
@@ -64,14 +64,6 @@ table {
 	/*outline: 1px solid rgb(0,0,255);*/
 }
 
-body { 
-  background: url(../img/aGSD1/5.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .container,
  {
 	height: 100%;
@@ -86,18 +78,39 @@ body {
 	TYPOGRAPHY
 	====================== */
 
-h1, h2 {
+
+.name {
+	text-align: left;
+	padding-left: 20px;
+}
+
+.year {
+	text-align: center;
+}
+
+.about-name {
+	text-align: right;
+	padding-right: 20px;
+	text-decoration: underline;
+}
+
+td {
+	padding-top: 10px;
+}
+
+h1,
+td {
 	font-family: 'Cousine', monospace;
 	font-size: 12px;
 }
 
-.name {
-	margin-bottom: 15px;
+h1 {
+	margin-top: 10px;
+	text-align: center;
 }
 
-h2 {
+.name {
 	margin-bottom: 15px;
-	line-height: 20px;
 }
 
 a:link,
@@ -119,9 +132,69 @@ a:hover {
 	LAYOUT
 	====================== */
 
-.info {
+table {
+	width: 100%;
 	position: fixed;
-	right: 100px;
-	top:25%;
+	table-layout: fixed;
+	top: 0;
+	height: 30px;
+	background-color: white;
+	border-bottom: 1px solid black;
+}
 
+.header {
+	display: inline-block;
+	position: fixed;
+	top:0;
+	left: 0;
+	right:0;
+	height: 40px;
+}
+
+.proj-list a {
+	float: left;
+	width: 23.75%;
+	margin-top: 1%;
+	margin-left: 1%;
+}
+
+a:nth-of-type(3n) {
+  /*margin-right: 10%;*/
+}
+
+img {
+  border: none;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.proj-list {
+	margin-top: 30px;
+}
+
+.archive {
+	clear: left;
+	padding-top: 50px;
+}
+
+h1.archive-title {
+	width: 100%;
+	border-bottom: 1px solid black; 
+}
+
+.archive {
+}
+
+.archive-container {
+	overflow-x:scroll;
+}
+
+.row1 a {
+	overflow-x:scroll;
+	height: 67px;
+	width: auto;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
 }
