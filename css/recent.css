@@ -190,8 +190,12 @@ h1.archive-title {
 	overflow-x:scroll;
 }
 
+.row1 {
+	width: 100%;
+}
+
 .row1 a {
-	overflow-x:scroll;
+	float: left;
 	height: 67px;
 	width: auto;
 	margin-top: 0;
