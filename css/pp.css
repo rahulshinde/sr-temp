@@ -1,5 +1,5 @@
 /* 	================= 
-		RECENT.CSS
+		PP.CSS
 	================= */
 
 
@@ -151,50 +151,20 @@ table {
 	height: 40px;
 }
 
-a {
-	float: left;
-	width: 32%;
-	margin-top: 1%;
-	margin-left: 1%;
-}
+/* 	======================
+	LAYOUT
+	====================== */
 
-a:nth-of-type(3n) {
-  /*margin-right: 10%;*/
-}
-
-img {
-  border: none;
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-.proj-list {
+.img-list {
 	margin-top: 30px;
 }
 
-.archive {
-	clear: left;
-	padding-top: 50px;
+.img-full {
+	width: 80%;
+	margin-top: 1%;
+	margin-left: 10%;
 }
 
-h1.archive-title {
-	width: 100%;
-	border-bottom: 1px solid black; 
-}
-
-.archive {
-}
-
-.archive-container {
-	overflow-x:scroll;
-}
-
-.row1 a {
-	overflow-x:scroll;
-	height: 67px;
-	width: auto;
-	margin-top: 0;
-	margin-left: 0;
-	margin-right: 0;
+.img-last {
+	margin-bottom: 1%;
 }
