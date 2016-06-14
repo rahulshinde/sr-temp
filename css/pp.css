@@ -161,20 +161,20 @@ table {
 
 .img-full {
 	width: 80%;
-	margin-top: 1%;
+	padding-top: 1%;
 	margin-left: 10%;
 }
 
 .img-half-f {
 	float: left;
 	width: 40%;
-	margin-top: 1%;
+	padding-top: 1%;
 	margin-left: 10%;
 	margin-right: 0;
 }
 
 .img-half {
-	margin-top: 1%;
+	padding-top: 1%;
 	float: left;
 	margin-left: 0;
 	margin-right: 0;
@@ -184,13 +184,13 @@ table {
 .img-third-f {
 	float: left;
 	width: 26.66%;
-	margin-top: 1%;
+	padding-top: 1%;
 	margin-left: 10%;
 	margin-right: 0;
 }
 
 .img-third {
-	margin-top: 1%;
+	padding-top: 1%;
 	float: left;
 	margin-left: 0;
 	margin-right: 0;
