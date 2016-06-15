@@ -200,3 +200,49 @@ table {
 .img-last {
 	margin-bottom: 1%;
 }
+
+@media screen and (min-width: 1300px) {
+	
+	.img-full {
+		width: 60%;
+		padding-top: 2%;
+		margin-left: 20%;
+	}
+
+	.img-half-f {
+		float: left;
+		width: 30%;
+		padding-top: 2%;
+		margin-left: 20%;
+		margin-right: 0;
+	}
+
+	.img-half {
+		padding-top: 2%;
+		float: left;
+		margin-left: 0;
+		margin-right: 0;
+		width: 30%;
+	}
+
+	.img-third-f {
+		float: left;
+		width: 20%;
+		padding-top: 2%;
+		margin-left: 20%;
+		margin-right: 0;
+	}
+
+	.img-third {
+		padding-top: 2%;
+		float: left;
+		margin-left: 0;
+		margin-right: 0;
+		width: 20%;
+	}
+
+	.img-last {
+		margin-bottom: 2%;
+	}
+
+}
