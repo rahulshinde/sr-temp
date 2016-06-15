@@ -125,3 +125,12 @@ a:hover {
 	top:25%;
 
 }
+
+@media screen and (min-width: 1300px) {
+	body {
+		-webkit-background-size: 80%;
+		-moz-background-size: 80%;
+		-o-background-size: 80%;
+		background-size: 80%;
+	}
+}
