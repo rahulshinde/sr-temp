@@ -150,40 +150,40 @@ a:hover {
 }
 
 @media screen and (max-width: 600px) {
+
+	body { 
+	  background: none;
+	  background-color: black;
+	}
 	.info {
 		text-align: center;
-		width: 80%;
-		margin-left: 10%;
+		width: 100%;
 
 	}
 
 	h1, h2 {
 		font-family: 'Cousine', monospace;
 		font-size: 17px;
+		color: white;
 	}
 
 	.name {
 		font-size: 17px;
-		background-color: black;
-		padding-top: 5px;
-		padding-bottom: 5px;
-		color: white;
 	}
 
 	h2 {
 		margin-bottom: 15px;
 		line-height: 20px;
-		color: red;
 	}
 
 	a:link,
 	a:visited {
-		color: red;
+		color: white;
 	}
 
 	a:hover {
 		font-style: italic;
-		color: red;
+		color: white;
 	}
 
 	.italic {
