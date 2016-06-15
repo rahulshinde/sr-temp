@@ -164,7 +164,7 @@ a:nth-of-type(3n) {
 
 img {
   border: none;
-  max-width: 100%;
+  width: 100%;
   height: auto;
   display: block;
 }
