@@ -72,8 +72,7 @@ body {
   background-size: cover;
 }
 
-.container,
- {
+.container {
 	height: 100%;
 	width: 100%;
 }
@@ -132,5 +131,59 @@ a:hover {
 		-moz-background-size: 80%;
 		-o-background-size: 80%;
 		background-size: 80%;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.info {
+		right: 50px;
+
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.info {
+		right: 25px;
+
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+	.info {
+		text-align: center;
+		width: 80%;
+		margin-left: 10%;
+
+	}
+
+	h1, h2 {
+		font-family: 'Cousine', monospace;
+		font-size: 15px;
+	}
+
+	.name {
+		background-color: black;
+		color: white;
+	}
+
+	h2 {
+		margin-bottom: 15px;
+		line-height: 20px;
+		color: red;
+	}
+
+	a:link,
+	a:visited {
+		color: red;
+	}
+
+	a:hover {
+		font-style: italic;
+		color: red;
+	}
+
+	.italic {
+		font-style: italic;
 	}
 }
