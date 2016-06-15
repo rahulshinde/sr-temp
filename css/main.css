@@ -156,6 +156,7 @@ a:hover {
 	  background-color: black;
 	}
 	.info {
+		top: 15;
 		text-align: center;
 		width: 100%;
 
@@ -163,22 +164,25 @@ a:hover {
 
 	h1, h2 {
 		font-family: 'Cousine', monospace;
-		font-size: 17px;
+		font-size: 18px;
 		color: white;
 	}
 
 	.name {
-		font-size: 17px;
+		font-size: 18px;
+		margin-bottom: 24px;
 	}
 
 	h2 {
-		margin-bottom: 15px;
-		line-height: 20px;
+		margin-bottom: 24px;
+		line-height: 35px;
 	}
 
 	a:link,
 	a:visited {
 		color: white;
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 
 	a:hover {
