@@ -158,10 +158,6 @@ table {
 	margin-left: 1%;
 }
 
-a:nth-of-type(3n) {
-  /*margin-right: 10%;*/
-}
-
 img {
   border: none;
   width: 100%;
@@ -215,4 +211,14 @@ h1.archive-title {
 	margin-top: 0;
 	margin-left: 0;
 	margin-right: 0;
+}
+
+@media screen and (min-width: 1300px) {
+	.proj-list a {
+		float: left;
+		width: 29.33%;
+		margin-top: 3%;
+		margin-left: 3%;
+	}
+
 }
