@@ -156,9 +156,10 @@ a:hover {
 	  background-color: black;
 	}
 	.info {
-		top: 15;
+		top: 15%;
 		text-align: center;
-		width: 100%;
+		left: 0;
+		right: 0;
 
 	}
 
