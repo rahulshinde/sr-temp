@@ -159,11 +159,14 @@ a:hover {
 
 	h1, h2 {
 		font-family: 'Cousine', monospace;
-		font-size: 15px;
+		font-size: 17px;
 	}
 
 	.name {
+		font-size: 17px;
 		background-color: black;
+		padding-top: 5px;
+		padding-bottom: 5px;
 		color: white;
 	}
 
