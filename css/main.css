@@ -156,10 +156,16 @@ a:hover {
 	  background-color: black;
 	}
 	.info {
-		top: 15%;
-		text-align: center;
-		left: 0;
+		position: relative;
+		display: block;
+		margin-top: 15%;
+		margin-bottom: 15%;
+		margin-right: 0;
+		margin-left: 0;
 		right: 0;
+		left: 0;
+		text-align: center;
+		width: 100%;
 
 	}
 
