@@ -373,6 +373,18 @@ table {
 }
 
 @media screen and (max-width: 750px) {
+
+	.large {
+		display: none;
+	}
+
+	.middle {
+		display: block;
+	}
+
+	.mobile {
+		display: none;
+	}
 	
 	.img-full {
 		display: block;
