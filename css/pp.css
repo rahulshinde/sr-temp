@@ -491,3 +491,7 @@ table {
 	.mobile {
 		display: block;
 	}
+
+	.about-name {
+		width:80%;
+	}
