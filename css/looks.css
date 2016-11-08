@@ -60,7 +60,8 @@ table {
 
 
 * {
-	/*background-color: rgba(255, 0, 0, 0.2);*/
+	background-color: black;
+	color: white;
 	/*outline: 1px solid rgb(0,0,255);*/
 }
 
@@ -115,7 +116,7 @@ h1 {
 
 a:link,
 a:visited {
-	color: black;
+	color: white;
 }
 
 a:hover {
@@ -139,7 +140,7 @@ table {
 	top: 0;
 	height: 30px;
 	background-color: white;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid white;
 }
 
 .header {

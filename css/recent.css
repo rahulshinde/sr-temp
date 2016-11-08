@@ -60,14 +60,25 @@ table {
 
 
 * {
-	/*background-color: rgba(255, 0, 0, 0.2);*/
+	background-color: black;
+	color: white;
 	/*outline: 1px solid rgb(0,0,255);*/
+}
+
+a:link,
+a:visited {
+	color: white;
+}
+
+a:hover {
+	color: red;
 }
 
 .container,
  {
 	height: 100%;
 	width: 100%;
+	background-color: black;
 }
 
 .mobile {
@@ -113,15 +124,6 @@ h1 {
 	margin-bottom: 15px;
 }
 
-a:link,
-a:visited {
-	color: black;
-}
-
-a:hover {
-	color: red;
-}
-
 .italic {
 	font-style: italic;
 }
@@ -139,7 +141,7 @@ table {
 	top: 0;
 	height: 30px;
 	background-color: white;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid white;
 }
 
 .header {
@@ -167,16 +169,23 @@ img {
 
 .proj-list {
 	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.float-clear {
+	clear: both;
 }
 
 .archive {
 	clear: left;
 	padding-top: 50px;
+	background-color: black;
 }
 
 h1.archive-title {
 	width: 100%;
-	border-bottom: 1px solid black; 
+	padding-bottom: 1%;
+	/*border-bottom: 1px solid white; */
 }
 
 .archive {
@@ -199,8 +208,6 @@ h1.archive-title {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-
-    background-color: white;
 }
 
 .row1 a {
